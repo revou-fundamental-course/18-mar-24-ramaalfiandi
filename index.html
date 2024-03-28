@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-Rama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="header-container">
+    <section class="logo-icon"></section>
+    <section class="nav-container">
+        <button>Home</button>
+        <button>Our Pages</button>
+        <button>Call Us</button>
+    </section>
+</header>
+<br />
+
+<!-- Header Konten -->
+<section class="section-container">
+    <header>
+        <h1>Your Trust Travel Agent's</h1>
+        <p1>Your Happiness is Our Happines</p1>
+    </header>
+</section>
+
+<!-- Isi Konten Bagian 1-->
+<div class="section-content-container">
+    <div style="height: 550px; width: 100%; background-color: #f2f2f2;">
+        <!-- Konten Auto Slide Banner -->
+        <div class="banner-container">
+            <div>
+                <img class="img-slidebanner" src="assets/oldtraffordnew.jpg" alt="Image 1">
+                <img class="img-slidebanner" src="assets/sansiromilan.jpg" alt="Image 2">
+                <img class="img-slidebanner" src="assets/santiagobernabeu.jpg" alt="Image 3">
+            </div>
+            <button class="btnprev" onclick="plusDivs(-1)">Previous</a>
+                <button class="btnnext" onclick="plusDivs(1)">Next</a>
+        </div>
+        <div class="review-container">
+            <div class="review">
+                <div class="customer-photo">
+                    <img src="assets/hamish.jpg" alt="Customer 1">
+                </div>
+                <div class="customer-info">
+                    <h3>Hamish Daud</h3>
+                    <h4>Suami Raisa</h4>
+                    <p>"Liburan jadi menyenangkan bersama Rama Travel"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+    <!-- Konten Form -->
+    <div style="height: 550px; width: 100%; background-color: #f2f2f2;">
+        <form id="contact-form" onsubmit="return validateForm()">
+            <h1>Contact Us</h1>
+            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+            <label for="name">Your Name</label><br />
+            <input class="input" type="text" id="name" name="name" placeholder="First and last name"> <br />
+            <label for="email">Email Address</label><br />
+            <input class="input" type="email" id="email" name="email" placeholder="example@email.com"> <br />
+            <label for="subject">What are you interested in?</label>
+            <div class="custom-select">
+                <select name="subject" id="subject">
+                    <option value="" disabled selected>Select option</option>
+                    <option value="travel">Travelling</option>
+                    <option value="exercise">Exsecising</option>
+                    <option value="reading">Reading a Book</option>
+                </select>
+            </div>
+            <div class="tombol">
+                <button name="button" class="custom" type="submit">SEND</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Konten Tata Cara Order -->
+
+<div style="height: auto; width: 100%; background-color:#f2f2f2;">
+    <h1>Berikut ini tata cara pemesanan para Travel Agent Rama</h1>
+    <ul class="numbered-list">
+        <li>
+            <div class="circle">1</div>
+            <div class="point">Identifikasi destinasi yang ingin Anda kunjungi dan tentukan paket wisata yang sesuai
+                dengan kebutuhan Anda. Pastikan untuk mempertimbangkan tanggal perjalanan, durasi, dan fasilitas
+                yang
+                Anda inginkan.</div>
+        </li>
+        <li>
+            <div class="circle">2</div>
+            <div class="point">Hubungi atau Kunjungi Travel Agent: Setelah Anda memilih destinasi dan paket wisata,
+                hubungi atau kunjungi travel agent yang menyediakan layanan tersebut. Diskusikan detail perjalanan
+                Anda
+                dengan agen perjalanan, termasuk tanggal, jumlah orang, preferensi akomodasi, dan kebutuhan khusus
+                lainnya.</div>
+        </li>
+        <li>
+            <div class="circle">3</div>
+            <div class="point">Konfirmasi Ketersediaan dan Harga: Pastikan untuk mengonfirmasi ketersediaan paket
+                wisata
+                pada tanggal yang Anda inginkan.
+                Tanyakan tentang harga paket dan apa saja yang termasuk dalam harga tersebut, seperti akomodasi,
+                transportasi, makanan, dan aktivitas</div>
+        </li>
+        <li>
+            <div class="circle">4</div>
+            <div class="point">Lakukan Pembayaran dan Konfirmasi Reservasi: Setelah Anda puas dengan detail
+                perjalanan
+                dan harga, lakukan pembayaran sesuai dengan ketentuan yang disepakati.
+                Pastikan untuk mendapatkan bukti pembayaran dan konfirmasi reservasi secara tertulis dari travel
+                agent
+            </div>
+        </li>
+        <li>
+            <div class="circle">5</div>
+            <div class="point">Persiapkan Dokumen Perjalanan: Sebelum tanggal keberangkatan, pastikan Anda telah
+                mempersiapkan semua dokumen perjalanan yang diperlukan, seperti paspor, visa (jika diperlukan),
+                tiket
+                pesawat, dan bukti pembayaran.
+                Juga, pastikan untuk menghubungi travel agent jika ada perubahan atau pertanyaan lebih lanjut
+                sebelum
+                keberangkatan</div>
+        </li>
+    </ul>
+</div>
+
+
+
+<div>
+    <div class="closing">
+        <h1>Our Package</h1>
+    </div>
+
+</div>
+
+<div class="travel-container">
+    <div class="row">
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>New York</h2>
+                <p>The city that never sleeps!</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>Paris</h2>
+                <p>The city of love and lights!</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>Tokyo</h2>
+                <p>The bustling metropolis of Japan!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>Rome</h2>
+                <p>The eternal city!</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>London</h2>
+                <p>The home of the royal</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <img class="travel" src="assets/travel-bag.png" alt="Travel Icon" style="height: 40px; width: 40px;">
+                <h2>Sydney</h2>
+                <p>The harbor city!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="closing">
+        <h1>Melintasi Batas: Memahami Esensi Bisnis Perjalanan</h1>
+        <p>Traveling bukan hanya tentang destinasi yang kita tuju, tetapi tentang perjalanan itu sendiri.
+            Ia adalah cerita tentang pengalaman, kegembiraan, dan pertumbuhan pribadi.
+            Dan di dalam cerita ini, setiap perusahaan perjalanan memiliki peran yang tak tergantikan dalam menyusun
+            lembaran sejarah hidup kita.</p>
+        <button name="button" class="custom-button">CALL TO ACTION</button>
+    </div>
+</div>
+
+<div>
+    <div class="footer">
+        <p>&copy; 2024 Rama Alfiandi - Assignment Revou</p>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>
